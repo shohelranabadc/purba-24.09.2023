@@ -1,0 +1,370 @@
+/* start with {col-xxl} bootstrap- break point upto 1400px */
+@media only screen and (min-width: 1401px)
+{
+ 
+
+    
+}
+
+/* start with {col-xl} bootstrap-break point */
+@media only screen and (min-width: 1200px) and (max-width: 1399px)
+{
+  .logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .top-content h1{
+    font-size: 54px;
+  }
+
+  .top-content .para-1{
+    font-size: 25px;
+    padding-top: 0.5rem
+  }
+
+  .top-content .para-2{
+    font-weight: 500;
+  }
+
+  /* .nav-item .nav-link{
+    color: #fff;
+    padding: 0.8rem 1rem !important;
+  } */
+
+}
+
+
+/* start with {col-lg}-bootstrap-breakpointlg 1025px to 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+  .top-content h1{
+    font-size: 40px;
+  }
+
+  .top-content h2{
+    font-size: 32px;
+  }
+
+  .top-content .para-1{
+    font-size: 20px;
+    padding-top: 0.5rem
+  }
+
+  .top-content .para-2{
+    padding: 16px 0;
+    font-size: 20px;
+  }
+
+  .nav-item .nav-link{
+    color: #fff;
+    padding: 0.8rem 1rem !important;
+  }
+  .notice-link{
+    font-size: 14px;
+  }
+
+  .sheikh-mujib-img .card img{
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .sheikh-mujib-img .card-title{
+    font-size: 13px;
+  }
+
+  .sheikh-mujib-img .card-text{
+    font-size: 14px
+  }
+
+  .card-body{
+    padding: 8px;
+  }
+
+  .main-section .row.my-3{
+    margin-top: 8px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .welcome-title{
+    padding: 3px;
+  }
+
+  .welcome-title h2{
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .welcome-body p{
+    font-size: 18px;
+  }
+
+  .about-text p{
+    font-size: 14px;
+  }
+
+
+  /* FOOTER SECTION */
+  .footer-partSecound-text,
+  .footer-partThird-text{
+    margin-top: 5rem;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .footer-partOne-text p{
+    font-size: 15px;
+  }
+
+  .school-location iframe{
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .emergency-link ul li a{  
+    font-size: 13.5px;
+  }
+
+}
+
+/* start with {col-md} breakpoint ---- 769px to 1024px bs-991px*/
+@media only screen and (min-width: 769px) and (max-width: 991px) 
+{
+   
+  
+
+}
+
+/* start with {col-sm} breakpoints  iPads, Tablets small devices */
+@media only screen and (min-width: 577px) and (max-width: 768px)
+{
+.logo-container .logo img {
+  max-width: 90px;
+}
+
+.top-content{
+  padding-top: 1.5rem !important;
+}
+
+.top-content h1{
+  font-size: 24px;
+}
+
+.top-content h2{
+  font-size: 20px;
+  color: #85f00b !important;
+}
+
+.top-content .para-1{
+  font-size: 14px;
+  padding-top: 0.5rem
+}
+    
+.top-content .para-2{
+  padding: 16px 0;
+  font-size: 15px;
+}
+
+/* NOTICE SLIDE START */
+.breaking-caret span{
+  font-size: 12px;
+}
+
+.breaking-caret:after {
+  display: none;
+}
+
+.news-sliding .carousel-inner .carousel-item a span{
+  margin: 0 0px !important;
+  font-size: 10px !important;
+}
+
+.news-sliding .carousel-inner .carousel-item a + a{
+  font-size: 10px;
+}
+/* NOTICE SLIDE END */
+
+
+
+}
+
+
+/* Mobile devices x-small */
+@media only screen and (max-width: 576px)
+{
+/* HEADING START */
+  #main-wrapper .header{
+  padding-top: 1rem !important;
+}
+
+.logo-container{
+  justify-content: center;
+}
+
+.logo-container .logo img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+    
+.top-content{
+  padding-top: 1.5rem !important;
+}
+
+.top-content h1{
+  font-size: 28px;
+  -webkit-text-fill-color: #fff;
+  -webkit-text-stroke-width: 0px;
+}
+
+.top-content h2{
+  font-size: 18px;
+  color: #85f00b !important;
+}
+
+.top-content .para-1{
+  font-size: 12px;
+  padding-top: 0.5rem
+}
+    
+.top-content .para-2{
+  padding: 16px 0;
+  font-size: 12px;
+}
+/* HEADING END */
+ 
+/* NOTICE SLIDE START */
+.breaking-caret span{
+  font-size: 12px;
+}
+
+.breaking-caret:after {
+  display: none;
+}
+
+.news-sliding .carousel-inner .carousel-item a span{
+  margin: 0 0px !important;
+  font-size: 0.5rem !important;
+}
+
+.news-sliding .carousel-inner .carousel-item a + a{
+  font-size: 0.5rem;
+}
+/* NOTICE SLIDE END */
+
+/* NAVIGATION START */
+.navbar{
+  margin-top: 0rem !important;
+  padding-top: 0.2rem !important;
+  padding-bottom: 0.2rem !important;
+}
+/* NAVIGATION END */
+
+/* MAIN SECTION START */
+.main-section .row{
+  margin-top: 0 !important;
+}
+
+/* SLIDE START */
+.slide-img-height{
+  max-height: 250px;
+  background-size: contain;
+}
+/* SLIDE END */
+
+/* WELCOME SECTION START */
+.welcome-title h2{
+  font-size: 18px !important;
+}
+
+.welcome-body p{
+  font-size: 14px;
+}
+
+.welcome-body ul li a{
+  font-size: 12px;
+}
+/* WELCOME SECTION END */
+/* MAIN SECTIO END */
+
+/* ABOUT SCHOOL SECTION START */
+.about-title{
+  font-size: 16px;
+}
+.about-text p{
+  font-size: 12px;
+}
+/* ABOUT SECTION END */
+
+
+
+/* FOOTER */
+.footer-logo-container{
+  margin-top: 1.5rem !important;
+}
+
+.footer-logo-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+      
+
+.footer-partOne-text,
+.footer-partSecound-text, 
+.footer-partThird-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-partOne-text {
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.emergency-link,
+.school-location{
+  margin-top: 12px;
+}
+
+.footer-partSecound-text,
+.footer-partThird-text{
+  margin-top: 2rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.emergency-link ul li a{  
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px dashed #8c8b8b;
+  display: block;
+  font-size: 12px;
+  color: #fff;
+}
+
+.school-location{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* BOTTOM FOOTER START */
+.bottom-footer-center{
+  padding: 14px 0;
+}
+
+
+     
+}
